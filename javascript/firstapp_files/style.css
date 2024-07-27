@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #7a6df3;
+}
+nav .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(246, 255, 255);
+    padding: 0 40px;
+    line-height: 80px;
+
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    margin-right: 40px;
+}
+nav li{
+    line-height: 80px;
+    margin: 0 20px;
+    font-weight: bold
+   
+    
+}
+nav  a{
+    color: rgb(244, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+}
+
+a.khan, a:hover{
+    border: 1px solid azure;
+    transform: 5s;
+}
+
+nav #icon{
+color: azure;
+font-size: 30px;
+line-height: 110px;
+cursor: pointer;
+display: none;
+}
+
+

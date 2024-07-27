@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidbar{
+    background-color: aquamarine;
+    width: 300px;
+    height: 100vh;
+}
+
+.sidbar ul{
+    position: relative;
+}
+
+.sidbar ul li{
+    width: 100%;
+
+}
+.sidbar ul li:hover{
+    background-color: blue;
+}
